@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class inputsum {
+public class inputmul {
     public static void main(String args[]){
         Scanner ak = new Scanner(System.in);
         //int a=3,b=4;
