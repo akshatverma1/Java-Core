@@ -8,5 +8,7 @@ public class javafile{
         Scanner ak = new Scanner(System.in);
         String name = ak.nextLine();
         System.out.println(name);
+        int a = ak.nextInt();
+        System.out.println(a);
     }
 }
