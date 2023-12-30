@@ -4,6 +4,7 @@ You have to output the total cost of the items back to the user as their bill.
 import java.util.*;
 public class ass3 {
     public static void main(String i[]){
+        char $ = 12;
         Scanner av = new Scanner(System.in);
         System.out.println("Enter The Price of Pencil");
         float Pencil = av.nextFloat();
@@ -17,5 +18,6 @@ public class ass3 {
         float g = 0.18f *sum;
         System.out.println("After GST Included");
         System.out.println(sum+g);
+        System.out.print($);
     }
 }
