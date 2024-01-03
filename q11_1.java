@@ -5,5 +5,10 @@ public class q11_1 {
         System.out.println("Enter the Any Value");
         Scanner ak = new Scanner(System.in);
         int a = ak.nextInt();
+        if(a>=0){
+            System.out.println("It's Positive Number");
+        }else{
+            System.out.println("It's Negative Number");
+        }
     }
 }
