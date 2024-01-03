@@ -9,6 +9,6 @@ public class inputsum {
         System.out.println(a);
         System.out.println("b = ");
         int b = ak.nextInt();
-        System.out.println(a*b);
+        System.out.println(a+b);
     }
 }
