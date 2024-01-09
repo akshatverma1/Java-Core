@@ -13,6 +13,7 @@ public class ass15_2 {
                 break;
             }
         }
+        cout = cout-1;
         for(int i=cout; ;i--){
             t=y%10;
             c = c +(t*((int)Math.pow(10,i)));
