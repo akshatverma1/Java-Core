@@ -34,6 +34,7 @@ public class ass15_2 {
     }
     public static void main(String a[]){
         Scanner ak = new Scanner(System.in);
+        System.out.println("Enter the Any Integer");
         int q = ak.nextInt();
         palindrome(q);
     }
