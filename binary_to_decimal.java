@@ -5,15 +5,11 @@ public class binary_to_decimal {
         Scanner ak = new Scanner(System.in);
         System.out.println("Enter the any integer you want to Convert Binary to decimal");
         int n = ak.nextInt();
-        //System.out.println(n%10);
-        //System.out.print(n/10);
         int uuu,v,m=0;
         for(int i=0; ;i++){
-            //System.out.println(n%10);
             v = n%10;
             uuu = (v*((int)Math.pow(2,i)));
             m=m+uuu;
-            //System.out.println(uuu);
             n=(n/10);
             if (n==0){
                 break;
