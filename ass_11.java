@@ -1,6 +1,6 @@
 import java.util.*;
 public class ass_11 {
-public static void main(String a[]) {
+    public static void main(String a[]) {
     Scanner ak = new Scanner(System.in);
     System.out.println("Enter the Any Integer");
     int n = ak.nextInt();

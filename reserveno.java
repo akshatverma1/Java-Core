@@ -6,9 +6,7 @@ public class reserveno {
         // System.out.println(e);
         // System.out.println(w);
         for(int i = 1;r>0;i++){
-            if (r==0) {
-                break;
-            }
+        
             System.out.print(r%10);
             r = r/10;
             // System.out.println(r/10);

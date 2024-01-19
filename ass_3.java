@@ -11,7 +11,6 @@ public class ass_3 {
             }
             fac = fac*a;
             a--;
-            
         }
         System.out.println(fac);
     }
