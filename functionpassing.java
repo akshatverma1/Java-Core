@@ -14,6 +14,7 @@ public class functionpassing {
             System.out.println(akshat[i]);
         }
         update(akshat);
+        System.out.println("Result");
         for(int i=0;i<3;i++){
             System.out.println(akshat[i]);
         }
