@@ -21,6 +21,5 @@ public class binarysearch {
         int key = 14;
         int u=akshat(arrr, key);
         System.out.println(u);
-        
     }
 }
