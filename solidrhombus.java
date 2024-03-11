@@ -7,7 +7,6 @@ public class solidrhombus {
                 for(int w=1;w<=4;w++){
                     System.out.print("*");
             }
-            
             System.out.println();
         }
     }
