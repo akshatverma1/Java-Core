@@ -8,22 +8,16 @@ public class buyandsell {
             for(int j=i;j>=0;j--){
                 if (buying>=prices[j]) {
                     buying=prices[j];
-                }
-               
+                }  
             }
-            //System.out.println(buying);
-            //System.out.println();
             profit = (selling-buying);
-            
             if(max<=profit){
                 max=profit;
             }
             buying=prices[0];
         }   
-        //profit = Math.max(profit, buying);
             System.out.println(max);     
     }
-    
     public static void main(String arr[]){
         int prices[] = {7,1,5,3,6,4};    
         stock(prices);

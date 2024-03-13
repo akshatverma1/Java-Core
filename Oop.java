@@ -2,8 +2,6 @@ public class Oop {
     public static void main(String[] args) {
         bank a = new bank();
         a.name="akshat";
-        a.mobile=9109;
-        
         a.show();
     }
 }
