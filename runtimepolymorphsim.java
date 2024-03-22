@@ -1,5 +1,4 @@
 public class runtimepolymorphsim {
-
     public static void main(String[] args) {
         runtime r = new runtime();
         r.functionone(2);

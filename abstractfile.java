@@ -1,21 +1,30 @@
 import java.util.*;
 
 public class abstractfile {
-
     public static void main(String arr[]) {
         akshatone g = new akshatone();
         g.abss();
-        abs h = new abs();
-        h.akshat();
     }
 }
 
-abstract class abs {
+class abs {
     void akshat() {
         System.out.println("akshat");
     }
 
-    abstract void abss();
+    void abss() {
+
+    };
+}
+
+class abstwo {
+    void akshat() {
+
+    }
+
+    void date(int x) {
+
+    }
 }
 
 class akshatone extends abs {
@@ -24,6 +33,6 @@ class akshatone extends abs {
     }
 
     void abss() {
-        System.out.println("function");
+        System.out.println("Akshat");
     }
 }
