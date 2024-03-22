@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class selectionsort {
     public static void ss(int arr[]) {
         for (int j = 0; j < arr.length; j++) {
@@ -18,6 +20,10 @@ public class selectionsort {
 
     public static void main(String a[]) {
         int arr[] = { 5, 4, 1, 3, 2 };
-        ss(arr);
+        // ss(arr);
+        Arrays.sort(arr);
+        for (int h = 0; h < arr.length; h++) {
+            System.out.println(arr[h]);
+        }
     }
 }
