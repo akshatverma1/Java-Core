@@ -39,6 +39,7 @@ public class inbuilt {
 
     public static void main(String[] args) {
         Integer arr[] = { 5, 4, 1, 3, 2 };
+        int matrihh[][] = new int[3][3];
         sortarraymethod(arr);
         forreverse(arr);
         sortarraywithstartend(arr, 2, 5);
