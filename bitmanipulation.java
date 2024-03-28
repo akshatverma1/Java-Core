@@ -1,5 +1,4 @@
 import javax.swing.text.StyledEditorKit;
-
 public class bitmanipulation {
     public static void main(String arr[]) {
         System.out.println("Even Number");
@@ -8,7 +7,6 @@ public class bitmanipulation {
             if (u == 0) {
                 System.out.print(i + " ");
             }
-
         }
         System.out.println();
         System.out.println("Odd Number");
@@ -17,7 +15,6 @@ public class bitmanipulation {
             if (!(u == 0)) {
                 System.out.print(i + " ");
             }
-
         }
     }
 }

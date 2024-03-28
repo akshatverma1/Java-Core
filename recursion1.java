@@ -1,7 +1,7 @@
 public class recursion1 {
     public static void decresingg(int n) {
         if (n >= 0) {
-            System.out.println(n);
+            System.out.print(n + " ");
             n--;
             decresingg(n);
         }
