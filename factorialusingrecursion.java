@@ -6,6 +6,7 @@ public class factorialusingrecursion {
             return 1;
         }
         int y = factroial(n - 1);
+        System.out.println(n);
         int total = n * y;
         return total;
     }
