@@ -10,6 +10,6 @@ public class xpowerfunction {
     }
 
     public static void main(String a[]) {
-        System.out.println(poww(2, 10));
+        System.out.println(poww(5, 5));
     }
 }
