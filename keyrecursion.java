@@ -8,6 +8,7 @@ public class keyrecursion {
 
     public static void main(String ar[]) {
         int arr[] = { 1, 2, 3, 4, 5 };
+
         System.out.println(firstoccurance(arr, 3, 0));
     }
 }
