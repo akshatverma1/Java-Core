@@ -9,6 +9,6 @@ public class telcingproblem {
     }
 
     public static void main(String[] args) {
-        System.out.println(ways(5));
+        System.out.println(ways(3));
     }
 }
