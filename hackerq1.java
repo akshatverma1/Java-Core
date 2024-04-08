@@ -14,8 +14,9 @@ public class hackerq1 {
             if (i < 10) {
                 sum = a[i + 1] - a[i];
                 if (sum < 0) {
-                    for (int o = sum; o < 0; o--) {
+                    for (int o = sum; o < 0; o++) {
                         x++;
+                        System.out.println(x);
                     }
                 }
                 y = sum + y + x;
