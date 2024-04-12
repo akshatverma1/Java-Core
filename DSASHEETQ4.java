@@ -4,13 +4,13 @@ public class DSASHEETQ4 {
             return 1;
         }
         int single = contiguoussubstring(S, l - 1);
-        int total = single + l;
+        int total = single;
         return total;
     }
 
     public static void main(String ar[]) {
-        String str = new String("aba");
+        String str = new String("abcab");
         int l = str.length() - 1;
-        System.out.println(contiguoussubstring("aba", l));
+        System.out.println(contiguoussubstring(str, l));
     }
 }
