@@ -8,9 +8,22 @@ public class DSASHEETQ5 {
         return total;
     }
 
+    public static int substring(String S) {
+        int ways = 0;
+        for (int i = 0; i < S.length(); i++) {
+            for (int j = i; j < S.length(); j++) {
+                if (S.charAt(i) == S.charAt(j)) {
+                    ways++;
+                }
+            }
+        }
+
+        return ways;
+    }
+
     public static void main(String arr[]) {
-        String S = new String("abcab");
+        String S = new String("aba");
         int lengthh = S.length() - 1;
-        System.out.println(same(S, lengthh));
+        System.out.println(substring(S));
     }
 }
