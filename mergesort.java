@@ -39,11 +39,9 @@ public class mergesort {
         while (j <= ei) {
             temp[k++] = arr[j++];
         }
-        // copy(temp, arr);
         for (int w = 0, q = si; w < temp.length; q++, w++) {
             arr[q] = temp[w];
         }
-
     }
 
     public static void main(String a[]) {
