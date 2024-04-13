@@ -23,7 +23,7 @@ public class mergesort {
         int i = si;
         int j = mid + 1;
         int k = 0;
-        while ((i <= mid) && (j <= ei)) {
+        for (; (i <= mid) && (j <= ei); k++) {
             if (arr[i] < arr[j]) {
                 temp[k] = arr[i];
                 i++;
@@ -31,12 +31,11 @@ public class mergesort {
                 temp[k] = arr[j];
                 j++;
             }
-            k++;
         }
-        while (i <= mid) {
+        for (; i <= mid;) {
             temp[k++] = arr[i++];
         }
-        while (j <= ei) {
+        for (; j <= ei;) {
             temp[k++] = arr[j++];
         }
         for (int w = 0, q = si; w < temp.length; q++, w++) {
