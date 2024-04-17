@@ -47,7 +47,7 @@ public class DSASHEETQ7 {
     }
 
     public static void main(String ar[]) {
-        int arr[] = { 3, 6, 2, 8, 3, 8, 1 };
+        int arr[] = { 2, 6, 4, 9, 3, 1 };
         mergesort(arr, 0, arr.length - 1);
         print(arr);
     }
