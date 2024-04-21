@@ -7,6 +7,6 @@ public class powerfunction1 {
     }
 
     public static void main(String a[]) {
-        System.out.println(power(2, 4));
+        System.out.println(power(12, 9));
     }
 }
