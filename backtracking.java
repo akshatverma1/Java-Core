@@ -7,6 +7,7 @@ public class backtracking {
 
     public static void backtrack(int arr[], int si, int valueindex) {
         if (si == arr.length) {
+            print(arr);
             return;
         }
         arr[si] = valueindex;
@@ -17,6 +18,7 @@ public class backtracking {
     public static void main(String a[]) {
         int arr[] = new int[6];
         backtrack(arr, 0, 1);
+        System.out.println();
         print(arr);
     }
 }
