@@ -1,0 +1,9 @@
+span > button:hover{
+    background-color: black;
+    color: red;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span >button:active{
+    background-color: wheat;
+}
