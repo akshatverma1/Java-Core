@@ -1,5 +1,35 @@
+/*universal selector*/
 *{
-    
     background-color: wheat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*id selector*/
+#login{
+    color: aliceblue;
+    background-color: black;
+}
+/*class selector*/
+.myclass{
+    color: white;
+    background-color: black;
+}
+
+/*Descendant selector*/
+span button{
+    color:black;
+    background-color: red;
+}
+
+/*Adjacent Sibling combinator*/
+h3 + h2 {
+    color: blueviolet;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Child Combinator*/
+div >button {
+    color: wheat;
+    background-color: black;
 }
