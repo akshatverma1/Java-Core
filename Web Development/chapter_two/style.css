@@ -33,3 +33,9 @@ div >button {
     color: wheat;
     background-color: black;
 }
+
+/*Attribute Selector*/
+button[name="Akshat"]{
+    font-size: 40px;
+    background-color: red;
+}
