@@ -1,0 +1,23 @@
+div{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    
+    padding: 2px
+}
+div:nth-of-type(2n){
+    background-color: yellowgreen;
+}
+div:nth-of-type(3n){
+    background-color: aqua;
+}
+#box1{
+    transform: rotate(45deg);
+}
