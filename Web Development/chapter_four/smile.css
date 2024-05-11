@@ -1,0 +1,49 @@
+#outterbox{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(255, 162, 0);
+    border: 2px solid black;
+    display: inline-block;
+}
+#inner1{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    display: inline-block;
+}
+#inner2{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+#smile{
+    height: 10px;
+    width: 30px;
+    background-color: rgb(70, 42, 5);
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    top: 65px;
+}
+#smile:hover{
+    background-color: rgba(255, 0, 38, 0.479);
+    height: 15px;
+    width: 50px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    
+}
