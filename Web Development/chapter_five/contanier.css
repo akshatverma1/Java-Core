@@ -1,0 +1,14 @@
+#contanier{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(204, 192, 255, 0.795);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#contanier div{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 2px;
+}
