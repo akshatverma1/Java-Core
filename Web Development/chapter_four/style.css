@@ -40,3 +40,16 @@ div:nth-of-type(3n){
     width: 400px;
     border: none;
 }
+span{
+    padding: 20px;
+}
+#outter{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+#inner{
+    text-align: center;
+    margin-top: 20px;
+    
+}
