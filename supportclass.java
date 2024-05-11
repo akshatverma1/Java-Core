@@ -20,6 +20,6 @@ public class supportclass {
 
     public static void main(String arr[]) {
         // System.out.println(akshat(2, 5));
-        System.out.println(friendspairing(4));
+        // System.out.println(friendspairing(4));
     }
 }

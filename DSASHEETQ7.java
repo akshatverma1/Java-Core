@@ -19,7 +19,7 @@ public class DSASHEETQ7 {
         merge(arr, si, mid, ei);
     }
 
-    public static void merge(int arr[], int si, int mid, int ei) {
+    public static String merge(int arr[], int si, int mid, int ei) {
         int temp[] = new int[ei - si + 1];
         int t = 0;
         int i = si;
@@ -47,7 +47,7 @@ public class DSASHEETQ7 {
     }
 
     public static void main(String ar[]) {
-        int arr[] = { 2, 6, 4, 9, 3, 1 };
+        String arr[] = { "sun", "earth", "mars", "mercury" };
         mergesort(arr, 0, arr.length - 1);
         print(arr);
     }

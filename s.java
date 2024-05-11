@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class s {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        StringBuffer sum = new StringBuffer("");
-        String a[] = new String[5];
+        int Str=0;
+        int in = 0;
+        int dou = 0;
         // enter value
         for (int i = 0; i < a.length; i++) {
             a[i] = sc.next();
-            sum = sum.append(a[i]);
+        if(a[i]==0)   
         }
-        System.out.println(sum);
     }
 }

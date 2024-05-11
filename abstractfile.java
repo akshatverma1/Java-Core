@@ -4,6 +4,7 @@ public class abstractfile {
     public static void main(String arr[]) {
         akshatone g = new akshatone();
         g.abss();
+
     }
 }
 

@@ -1,3 +1,7 @@
+/*Question 2 :You are given a number (eg -  2019), convert it into a String of english like“two zero one nine”.  
+Use a recursive function to solve this problem.
+NOTE-Thedigitsofthenumberwillonlybeintherange0-9andthelastdigitofanumbercan’t be 0.
+Sample Input: 1947Sample Output: “one nine four seven”*/
 public class DSASHEETQ2 {
     public static void converter_no_to_string(int arr[], int n) {
         if (n == arr.length) {

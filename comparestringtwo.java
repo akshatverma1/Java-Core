@@ -4,7 +4,7 @@ public class comparestringtwo {
         StringBuilder str2 = new StringBuilder("");
         str1.toString();
         str2.toString();
-        if (str2.equals(str1)) {
+        if () {
             System.out.println("true");
         } else {
             System.out.println("False");

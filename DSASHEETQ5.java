@@ -17,7 +17,6 @@ public class DSASHEETQ5 {
                 }
             }
         }
-
         return ways;
     }
 
