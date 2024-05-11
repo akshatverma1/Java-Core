@@ -1,0 +1,23 @@
+div {
+    display: block;
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.name{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin: 10px;
+    
+}
+#a{
+    background-color: red;
+}
+#b{
+    background-color: yellow;
+}
+#c{
+    background-color: green;
+}
