@@ -1,0 +1,20 @@
+#contanier{
+    height:50px;
+    width:900px;
+    border: 10px solid green;
+    background-color: plum;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+#contanier div{
+    height:50px;
+    width:80px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 5px;
+}
