@@ -4,10 +4,11 @@
     background-color: rgba(204, 192, 255, 0.795);
     border: 2px solid black;
     display: flex;
-    flex-direction: row;
     margin: 10px auto;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
+    flex-direction: row; /*row,row-reverse,column,column-reverse*/
+    justify-content: center;/* flex-start,flex-end,space-between,space-around,space-evenly*/
+    flex-wrap: nowrap;/*nowwrap(default),wrap,wrap-reverse*/
+    align-items: flex-end;/*flex-end,flex-start,centre*/
 }
 #contanier div{
     height: 100px;
