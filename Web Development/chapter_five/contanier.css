@@ -8,11 +8,14 @@
     flex-direction: row; /*row,row-reverse,column,column-reverse*/
     justify-content: center;/* flex-start,flex-end,space-between,space-around,space-evenly*/
     flex-wrap: nowrap;/*nowwrap(default),wrap,wrap-reverse*/
-    align-items: flex-end;/*flex-end,flex-start,centre*/
+    align-items: flex-start;/*flex-end,flex-start,centre*/
 }
 #contanier div{
     height: 100px;
     width: 100px;
     border: 2px solid black;
     margin: 2px;
+}
+#red{
+    flex-basis: 1000px;
 }
