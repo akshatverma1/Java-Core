@@ -1,9 +1,10 @@
 #contanier{
     height:50px;
     width:900px;
-    border: 10px solid green;
+    border: 2px solid green;
     background-color: plum;
     display: flex;
+    border-radius: 5px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
