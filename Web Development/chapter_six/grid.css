@@ -14,7 +14,8 @@ div .blocks{
     border: 2px solid red;
 }
 #iddd{
-    grid-column-start: 1;
+    /*grid-column-start: 1;
     grid-column-end: 3;
-    
+    */
+    grid-column: 1/span 4;
 }
