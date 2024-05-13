@@ -4,12 +4,17 @@
     background-color: aqua;
     border-radius: 2px;
     border: 2px solid red;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px 20px;
 }
 div .blocks{
-    height: 100px;
-    width: 100px;
     background-color: blueviolet;
     border: 2px solid red;
+}
+#iddd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
 }
