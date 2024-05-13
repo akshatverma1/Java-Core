@@ -1,0 +1,25 @@
+#gridcontanier{
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 10px;
+}
+.same{
+    
+    background-color: aqua;
+}
+#one{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#two{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 11;
+}
