@@ -1,0 +1,15 @@
+#gridcontanier{
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    border-radius: 2px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+div .blocks{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid red;
+}
