@@ -1,0 +1,55 @@
+#top{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(222, 146, 52);
+}
+#ad{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 20px 0px 20px 0px;
+    font-weight: 900;
+}
+#ad span{
+    color: rgb(222, 146, 52);
+}
+#contanier{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#contanier div{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+img{
+    width: 100%;
+    border-radius: 40px;
+    
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+@media (min-width:0px) and (max-width:500px){
+    #top{
+        font-size: 50px;
+    }
+    #ad{
+        font-size: 60px;
+    }
+    h3{
+        background-color: aqua;
+    }
+}
