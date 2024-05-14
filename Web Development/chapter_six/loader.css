@@ -1,0 +1,21 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border: 10px dotted grey;
+    border-top: 10px dotted red;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
