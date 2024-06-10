@@ -13,6 +13,7 @@ public class arraylist_basic {
         list.add(3);
         list.add(4);
         list.add(5);
+        list.add(1, 9);
         System.out.println(list);
 
         // get Element Value
