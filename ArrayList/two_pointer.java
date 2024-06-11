@@ -1,16 +1,20 @@
 import java.util.ArrayList;
 import java.util.*;
 
-public class container_with_most_water {
+public class two_pointer {
     public static int container(ArrayList<Integer> height) {
         int max = 0;
-        for (int i = 0; i < height.size(); i++) {
-            for (int j = i + 1; j < height.size(); j++) {
-                int width = j - i;
-                int heightt;
-                heightt = Math.min(height.get(i), height.get(j));
-                int area = width * heightt;
-                max = Math.max(max, area);
+        int left = 0;
+        int right = height.size() - 1;
+        while (left < right) {
+            int width = right - left;
+            int heightt = Math.min(height.get(right), height.get(left));
+            int area = width * heightt;
+            max = Math.max(max, area);
+            if (left < right) {
+                left++;
+            } else {
+                right--;
             }
         }
         return max;
@@ -27,7 +31,8 @@ public class container_with_most_water {
         height.add(8);
         height.add(3);
         height.add(7);
-        System.out.println(container(height));
         System.out.println(height);
+        System.out.println(container(height));
+
     }
 }
