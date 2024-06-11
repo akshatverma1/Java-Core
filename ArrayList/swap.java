@@ -1,5 +1,7 @@
 import java.io.Console;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class swap {
 
@@ -18,6 +20,9 @@ public class swap {
         list.add(879);
         System.out.println(list);
         swap(list, 1, 2);
+        Collections.sort(list);
+        System.out.println(list);
+        Collections.sort(list, Collections.reverseOrder());
         System.out.println(list);
     }
 }
