@@ -15,6 +15,7 @@ public class arraylist_basic {
         list.add(5);
         list.add(90);
         list.add(213);
+        list.add(100);
         list.add(1, 9);
         System.out.println(list);
 
