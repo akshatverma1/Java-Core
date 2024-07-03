@@ -18,6 +18,7 @@ public class arraylist_basic {
         list.add(100);
         list.add(2000);
         list.add(2000);
+        list.add(2000);
         list.add(1, 9);
         System.out.println(list);
 
