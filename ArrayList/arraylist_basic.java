@@ -19,6 +19,7 @@ public class arraylist_basic {
         list.add(213);
         list.add(888);
         list.add(100);
+        list.add(200);
         list.add(1, 9);
         System.out.println(list);
         System.out.println(str);
