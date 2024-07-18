@@ -27,6 +27,7 @@ public class arraylist_basic {
         // // get Element Value
         // System.out.println(list.get(2));
         list.get(5);
+        list.get(5);
 
         // // Remove Element Value
         // list.remove(2);
