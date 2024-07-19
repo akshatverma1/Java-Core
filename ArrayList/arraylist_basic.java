@@ -31,6 +31,8 @@ public class arraylist_basic {
         list.add(289);
         list.add(500);
         list.add(500);
+
+        list.add(500);
         // // Remove Element Value
         // list.remove(2);
         // System.out.println(list);
