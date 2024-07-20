@@ -11,6 +11,7 @@ public class swap {
         list.set(indx2, temp);
         System.out.println("Akshat");
         System.out.println("Verma");
+        System.out.println("Verma");
     }
 
     public static void main(String arr[]) {
