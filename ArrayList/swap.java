@@ -9,6 +9,7 @@ public class swap {
         int temp = list.get(indx1);
         list.set(indx1, list.get(indx2));
         list.set(indx2, temp);
+        System.out.println("Akshat");
     }
 
     public static void main(String arr[]) {
