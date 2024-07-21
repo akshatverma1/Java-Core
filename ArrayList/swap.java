@@ -24,6 +24,7 @@ public class swap {
         list.add(32);
         list.add(800);
         list.add(7989);
+        list.add(8000);
         System.out.println(list);
         swap(list, 1, 2);
         Collections.sort(list);
