@@ -33,6 +33,8 @@ public class swap {
         list.add(7878);
         list.add(5555);
         list.add(67676);
+        list.add(000323);
+        list.add(571625273);
         System.out.println(list);
         swap(list, 1, 2);
         Collections.sort(list);
