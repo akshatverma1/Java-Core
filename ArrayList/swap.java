@@ -45,6 +45,7 @@ public class swap {
         System.out.println("For only Akshat");
         System.out.println("For only Akshat");
         System.out.println("For only Akshat");
+        System.out.println("For only Akshat");
         list.add(7653754);
         list.add(5426354);
         System.out.println(list);
