@@ -58,11 +58,13 @@ public class swap {
         System.out.println("For only Akshahkuhkt");
         System.out.println("for gitr thub");
         System.out.println("");
+        System.out.println("Good");
         System.out.println("gfhgfhgfh");
         System.out.println("gfhgfhgfh");
         System.out.println("Analog");
         System.out.println("Analog");
         System.out.println("dgdhg");
+
         System.out.println("Analog");
         System.out.println("function");
         System.out.println("Junction");
