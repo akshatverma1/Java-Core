@@ -62,6 +62,8 @@ public class swap {
         System.out.println("gfhgfhgfh");
         System.out.println("Analog");
         System.out.println("Analog");
+
+        System.out.println("Analog");
         System.out.println("function");
         System.out.println("Junction");
         list.add(7653754);
