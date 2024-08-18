@@ -24,6 +24,7 @@ public class swap {
         list.add(67567);
         list.add(32);
         list.add(76786);
+        list.add(6348765);
         list.add(657);
         System.out.println("Akshatverma");
         System.out.println(list);
