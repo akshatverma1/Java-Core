@@ -11,6 +11,8 @@ class abs {
     void akshat() {
         System.out.println("akshat");
         System.out.println("Lakshya");
+        System.out.println("gdg gdfhg g"
+        );
 
     void abss() {
 
