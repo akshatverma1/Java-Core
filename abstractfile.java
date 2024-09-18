@@ -17,6 +17,7 @@ class abs {
     }
 
     void abss() {
+        console.log("Akshat");
 
     };
 }
