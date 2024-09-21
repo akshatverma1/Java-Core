@@ -24,7 +24,8 @@ class abs {
         console.log("Role Number - 242,Section - C");
         console.log("Akshat Verma");
         console.log("aksat verma");
-        console.log("akshat verma")
+        console.log("akshat verma");
+        console.log("akshat verma");
     };
 }
 
