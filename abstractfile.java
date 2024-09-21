@@ -23,12 +23,12 @@ class abs {
         console.log("Akshat Verma");
         console.log("Role Number - 242,Section - C");
         console.log("Akshat Verma");
+        console.log("aksat verma");
     };
 }
 
 class abstwo {
     void akshat() {
-
     }
 
     void date(int x) {
