@@ -17,15 +17,7 @@ class abs {
     }
 
     void abss() {
-        console.log("akshat verma");
-        console.log("Akshat");
-        console.log("Akshat Verma");
-        console.log("Akshat Verma");
         console.log("Role Number - 242,Section - C");
-        console.log("Akshat Verma");
-        console.log("aksat verma");
-        console.log("akshat verma");
-        console.log("akshat verma");
     };
 }
 
