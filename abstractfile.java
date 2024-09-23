@@ -29,6 +29,8 @@ class abstwo {
         System.out.println("Akshat verma");
         System.out.println("Akshat Verma");
         System.out.println("Akshat Verma");
+        System.out.println("Akshat Verma");
+        System.out.println("Akshat Verma");
     }
 
     void date(int x) {
