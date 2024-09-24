@@ -11,6 +11,7 @@ public class abstractfunction {
 abstract class abs {
     void fun() {
         System.out.println("NORMAL FUNCTION");
+        System.out.println("SciLab");
     }
 
     abstract void print();
