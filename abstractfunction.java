@@ -15,6 +15,7 @@ abstract class abs {
         System.out.println("SciLab");
         System.out.println("scc22");
         System.out.println("Command Line");
+        System.out.println("MySql");
     }
 
     abstract void print();
