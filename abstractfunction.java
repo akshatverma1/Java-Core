@@ -13,6 +13,7 @@ abstract class abs {
         System.out.println("NORMAL FUNCTION");
         System.out.println("SciLab");
         System.out.println("SciLab");
+        System.out.println("scc22");
     }
 
     abstract void print();
