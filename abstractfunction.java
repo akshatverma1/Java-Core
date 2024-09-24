@@ -14,6 +14,7 @@ abstract class abs {
         System.out.println("SciLab");
         System.out.println("SciLab");
         System.out.println("scc22");
+        System.out.println("Command Line");
     }
 
     abstract void print();
