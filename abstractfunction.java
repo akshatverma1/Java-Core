@@ -20,6 +20,7 @@ abstract class abs {
         System.out.println("fdsfsf");
         System.out.println("fdsfsf");
         System.out.println("fdsfsf");
+        System.out.println("fdsfsf");
     }
 
     abstract void print();
