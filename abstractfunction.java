@@ -17,6 +17,7 @@ abstract class abs {
         System.out.println("Command Line");
         System.out.println("MySql");
         System.out.println("Mysql");
+        System.out.println("fdsfsf");
     }
 
     abstract void print();
