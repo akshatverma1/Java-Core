@@ -18,6 +18,7 @@ abstract class abs {
         System.out.println("MySql");
         System.out.println("Mysql");
         System.out.println("fdsfsf");
+        System.out.println("fdsfsf");
     }
 
     abstract void print();
