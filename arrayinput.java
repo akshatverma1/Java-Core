@@ -11,6 +11,7 @@ public class arrayinput {
         System.out.println("Akshat Verma");
         System.out.println("Akshat Verma");
         System.out.println("Akshat Verma");
+        System.out.println("Akshat Verma");
         System.out.println("Length of Array " + ar.length);
     }
 }
