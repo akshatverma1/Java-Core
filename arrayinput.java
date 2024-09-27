@@ -9,7 +9,6 @@ public class arrayinput {
         System.out.println(ar[56]);
         System.out.println("Akshat Verma");
         System.out.println("Akshat Verma");
-        System.out.println("Akshat Verma");
         System.out.println("Length of Array " + ar.length);
     }
 }
