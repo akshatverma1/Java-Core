@@ -12,5 +12,6 @@ public class arrayinput {
         System.out.println();
         System.out.println();
         System.out.println();
+        System.out.println();
     }
 }
