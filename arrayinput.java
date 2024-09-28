@@ -9,5 +9,6 @@ public class arrayinput {
         System.out.println(ar[56]);
         System.out.println("Length of Array " + ar.length);
         System.out.println();
+        System.out.println();
     }
 }
