@@ -12,5 +12,7 @@ public class arrayinput {
         System.out.println("Akshat Vrema");
         System.out.println("Akshat verma");
         System.out.println("Akshat verma");
+        System.out.println("akshat verma");
+        System.out.println("React.js");
     }
 }
