@@ -11,5 +11,6 @@ public class arrayinput {
         System.out.println("Akshat Verma ");
         System.out.println("Akshat Vrema");
         System.out.println("Akshat verma");
+        System.out.println("Akshat verma");
     }
 }
