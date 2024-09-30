@@ -17,6 +17,5 @@ public class arrayquestion {
                 { 8, 8, 7 } };
         seven(matrix);
         System.out.println("tea");
-        System.out.println("Vehicles");
     }
 }
