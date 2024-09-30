@@ -23,5 +23,6 @@ public class arraypassingfunction {
             System.out.println(arr[j]);
         }
         int y = 0;
+        int u = 4;
     }
 }
