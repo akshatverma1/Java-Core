@@ -16,5 +16,6 @@ public class arrayquestion {
         int matrix[][] = { { 4, 7, 8 },
                 { 8, 8, 7 } };
         seven(matrix);
+        System.out.println("tea");
     }
 }

@@ -22,16 +22,6 @@ public class arraypassingfunction {
         for (int j = 0; j <= arr.length; j++) {
             System.out.println(arr[j]);
         }
-        int y = 0;
-        int u = 4;
-        int e = 9;
-        int q = 10;
-        int o = 76;
-        int q = 98;
-        int e = 7;
-        int q = 565;
-        int q = 99;
-        int d = 76;
-        int qq = 987;
+
     }
 }
