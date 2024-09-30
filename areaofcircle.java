@@ -8,5 +8,6 @@ public class areaofcircle {
         double area = 3.14f * r * r;
         System.out.println(area);
         System.out.println();
+        System.out.println();
     }
 }
