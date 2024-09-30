@@ -32,5 +32,6 @@ public class arraypassingfunction {
         int q = 565;
         int q = 99;
         int d = 76;
+        int qq = 987;
     }
 }
