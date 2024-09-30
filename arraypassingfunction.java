@@ -28,5 +28,7 @@ public class arraypassingfunction {
         int q = 10;
         int o = 76;
         int q = 98;
+        int e = 7;
+
     }
 }
