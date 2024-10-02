@@ -21,5 +21,6 @@ public class ass14_1 {
         int j = 980;
         int t = 454;
         int ehjh = 32;
+        int sas = 4345;
     }
 }
