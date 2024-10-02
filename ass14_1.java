@@ -19,5 +19,6 @@ public class ass14_1 {
         int q = 546;
         int z = 909;
         int j = 980;
+        int t = 454;
     }
 }
