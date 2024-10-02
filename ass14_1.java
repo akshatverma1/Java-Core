@@ -13,6 +13,5 @@ public class ass14_1 {
         int e = avg(1, 2, 3);
         System.out.print(e);
         int o = 4;
-        int q = 98;
     }
 }
