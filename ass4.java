@@ -6,5 +6,7 @@ public class ass4 {
         System.out.println("akshat");
         System.out.println("Akshat");
         System.out.println("React");
+        System.out.println("AKSHAT");
+        System.out.println("Akshat Verma");
     }
 }
