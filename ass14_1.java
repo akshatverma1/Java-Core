@@ -15,6 +15,5 @@ public class ass14_1 {
         System.out.println("message");
         System.out.println("gdhfg");
         System.out.println("gdhfg");
-        System.out.println("akshat");
     }
 }
