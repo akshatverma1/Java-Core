@@ -17,5 +17,6 @@ public class ass14_1 {
         int uy = 90;
         int uss = 90;
         int q = 546;
+        int z = 909;
     }
 }
