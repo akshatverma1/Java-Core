@@ -14,12 +14,6 @@ public class ass14_1 {
         System.out.print(e);
         System.out.println("React");
         System.out.println("Paint");
-        int uy = 90;
-        int uss = 90;
-        int y = 8096;
-        int q = 67985;
-        int r = 7675;
-        int j = 98576;
-        int rret = 4453;
+
     }
 }
