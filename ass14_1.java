@@ -14,6 +14,5 @@ public class ass14_1 {
         System.out.print(e);
         int o = 4;
         int q = 98;
-        int w = 8798;
     }
 }
