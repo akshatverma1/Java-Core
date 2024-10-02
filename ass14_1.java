@@ -13,5 +13,6 @@ public class ass14_1 {
         int e = avg(1, 2, 3);
         System.out.print(e);
         int gt = 67;
+        int y = 546;
     }
 }
