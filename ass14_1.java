@@ -16,5 +16,6 @@ public class ass14_1 {
         int q = 98;
         int w = 8798;
         int qgfg = 5654;
+        int wt = 55445;
     }
 }
