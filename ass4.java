@@ -4,5 +4,6 @@ public class ass4 {
         System.out.println(x);
         System.out.println(y);
         System.out.println("akshat");
+        System.out.println("Akshat");
     }
 }
