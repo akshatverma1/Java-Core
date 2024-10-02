@@ -15,5 +15,6 @@ public class ass14_1 {
         System.out.println("React");
         System.out.println("Paint");
         int uy = 90;
+        int uss = 90;
     }
 }
