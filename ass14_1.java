@@ -17,5 +17,6 @@ public class ass14_1 {
         int w = 8798;
         int qgfg = 5654;
         int wt = 55445;
+        int jsgdj = 59860;
     }
 }
