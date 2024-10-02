@@ -15,6 +15,5 @@ public class ass14_1 {
         int gt = 67;
         int y = 546;
         int we = 566;
-        int oop = 554;
     }
 }
