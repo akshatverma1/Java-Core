@@ -14,6 +14,5 @@ public class ass14_1 {
         System.out.print(e);
         int gt = 67;
         int qe = 454;
-        int q = 5986;
     }
 }
