@@ -19,5 +19,6 @@ public class ass14_1 {
         int y = 8096;
         int q = 67985;
         int r = 7675;
+        int j = 98576;
     }
 }
