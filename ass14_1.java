@@ -17,5 +17,6 @@ public class ass14_1 {
         int w = 33;
         int o = 34;
         int q = 32;
+        int ww = 400;
     }
 }
