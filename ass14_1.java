@@ -13,5 +13,6 @@ public class ass14_1 {
         int e = avg(1, 2, 3);
         System.out.print(e);
         System.out.println("akshat verma ");
+        int u = 2;
     }
 }
