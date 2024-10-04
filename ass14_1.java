@@ -15,6 +15,7 @@ public class ass14_1 {
         System.out.println("akshat verma ");
         int u = 2;
         int w = 33;
+        int o = 34;
         int q = 32;
     }
 }
