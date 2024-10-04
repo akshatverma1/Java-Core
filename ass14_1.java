@@ -11,7 +11,6 @@ public class ass14_1 {
 
     public static void main(String a[]) {
         int e = avg(1, 2, 3);
-        System.out.print(e);
 
     }
 }
