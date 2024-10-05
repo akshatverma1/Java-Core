@@ -4,5 +4,6 @@ public class newdate {
         int y = 33;
         int e = 33;
         int w = 342;
+        int qqq = 43;
     }
 }
