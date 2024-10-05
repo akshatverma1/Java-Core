@@ -3,7 +3,5 @@ public class newdate {
         int ff = 89;
         int y = 33;
         int e = 33;
-        int w = 342;
-
     }
 }
