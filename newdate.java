@@ -1,6 +1,6 @@
 public class newdate {
     public static void main() {
         System.out.println("Akshat");
-        int y = 0998;
+        int y = 334;
     }
 }
