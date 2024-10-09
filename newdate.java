@@ -3,6 +3,5 @@ public class newdate {
         System.out.println("Akshat");
         int q = 199;
         int e = 200;
-        int qo = 299;
     }
 }
