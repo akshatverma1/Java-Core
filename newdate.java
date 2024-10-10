@@ -4,5 +4,6 @@ public class newdate {
         System.out.println("verma");
         int q = 2;
         int qq = 23;
+        int w = 23;
     }
 }
