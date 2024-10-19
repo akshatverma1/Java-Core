@@ -4,5 +4,6 @@ public class newdate {
         System.out.println("akshat");
         int y = 3;
         int w = 33;
+        int o = 44;
     }
 }
