@@ -3,5 +3,6 @@ public class newdate {
         System.out.println("Akshat");
         System.out.println("Akshat verma");
         int y = 6;
+        int w = 65;
     }
 }
