@@ -30,6 +30,5 @@ public class Modifiedbubblesort {
         print(arr);
         int y = 78;
         int q = 87;
-        int d = 89;
     }
 }
