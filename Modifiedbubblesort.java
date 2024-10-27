@@ -29,6 +29,5 @@ public class Modifiedbubblesort {
         bubblesort(arr, arr.length - 1);
         print(arr);
         int i = 56;
-        int r = 56;
     }
 }
