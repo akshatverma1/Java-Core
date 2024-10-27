@@ -30,6 +30,5 @@ public class Modifiedbubblesort {
         print(arr);
         let w = 9;
         let q = 98;
-        let i = 89;
     }
 }
