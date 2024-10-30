@@ -29,6 +29,5 @@ public class Modifiedbubblesort {
         bubblesort(arr, arr.length - 1);
         print(arr);
         System.out.println("Akshat");
-        int y = 3;
     }
 }
