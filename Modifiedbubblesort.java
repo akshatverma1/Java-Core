@@ -30,6 +30,5 @@ public class Modifiedbubblesort {
         print(arr);
         System.out.println("Message");
         int y = 4;
-        int e = 78;
     }
 }
