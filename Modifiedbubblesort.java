@@ -31,6 +31,5 @@ public class Modifiedbubblesort {
         System.out.println("Message");
         int y = 4;
         int e = 78;
-        int q = 90;
     }
 }
