@@ -28,6 +28,6 @@ public class Modifiedbubblesort {
         int arr[] = { 1, 2, 3, 4, 5, 6 };
         bubblesort(arr, arr.length - 1);
         print(arr);
-        System.out.println("Message");s
+        System.out.println("Message");
     }
 }
