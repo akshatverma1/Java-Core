@@ -15,7 +15,6 @@ public class insertion_sort {
                 for (int u = k; u < array.length; u++) {
                     if (min < array[u]) {
                         min = array[u];
-                        int o = 90;
                     }
                 }
             }
