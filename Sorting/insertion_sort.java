@@ -17,7 +17,6 @@ public class insertion_sort {
                         min = array[u];
                         int y = 4;
                         int e = 54;
-                        int g = 78;
                     }
                 }
             }
