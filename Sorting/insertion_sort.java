@@ -16,6 +16,7 @@ public class insertion_sort {
                     if (min < array[u]) {
                         min = array[u];
                         int y = 4;
+                        int e = 54;
                     }
                 }
             }
