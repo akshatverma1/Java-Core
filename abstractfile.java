@@ -28,6 +28,8 @@ class abstwo {
     void akshat() {
         System.out.println("Akshat");
         System.out.println("Akshat");
+        System.out.println("Akshat");
+        System.out.println("Akshat");
     }
 
     void date(int x) {
