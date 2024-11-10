@@ -13,7 +13,6 @@ class abs {
         System.out.println("Lakshya");
         System.out.println("gdg gdfhg g");
         System.out.println("gdg gdfhg g");
-        System.out.println("gdg gdfhg g");
     }
 
     void abss() {
