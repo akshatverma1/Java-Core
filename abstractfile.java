@@ -10,7 +10,6 @@ public class abstractfile {
 class abs {
     void akshat() {
         System.out.println("akshat");
-        System.out.println("Lakshya");
     }
 
     void abss() {
