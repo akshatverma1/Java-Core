@@ -20,6 +20,6 @@ let rrr = [...arrayy, ...strings];
 for ( elementyyy of string) {
     console.log(elementyyy);
 }
-let a =9;
+// let a =9;
 // console.log(a);
 // console.log("","");
