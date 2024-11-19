@@ -22,5 +22,5 @@ for ( elementyyy of string) {
 }
 // let a =9;
 // console.log(a);
-console.log("","");
+// console.log("","");
 console.log("happy");
