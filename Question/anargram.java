@@ -15,8 +15,9 @@ public class anargram {
                     break;
                 }
             }
-            break;
             System.out.println("akshat");
+            break;
+
         }
     }
 }
