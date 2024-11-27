@@ -5,8 +5,8 @@ import java.util.*;
 public class pra {
     public static void main(String arr[]) {
         int mid = 0;
-        int[] nums1 = { 1, 3 };
-        int[] nums2 = { 2, 8 };
+        int[] nums1 = { 1, 2 };
+        int[] nums2 = { 3 };
         int[] arrayy = new int[nums1.length + nums2.length];
 
         for (int i = 0; i < nums1.length; i++) {
@@ -25,12 +25,15 @@ public class pra {
             }
         }
         if ((arrayy.length) % 2 == 0) {
-            mid = (arrayy.length / 2);
-            System.out.println(mid);
+            mid = (arrayy.length / 2) - 1;
+            float midvalue = Float.valueOf((arrayy[mid] + arrayy[mid + 1]));
+            midvalue = midvalue / 2;
+            System.out.println(midvalue);
         } else {
 
-            mid = arrayy[(arrayy.length / 2) + 1];
+            mid = arrayy[(arrayy.length / 2)];
             // return mid;
+            System.out.println(Float.valueOf(mid));
         }
         // return mid;
     }
