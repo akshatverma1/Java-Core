@@ -2,7 +2,7 @@ package Question;
 
 public class pra1 {
     public static void main(String arr[]) {
-        String s = "cbbd";
+        String s = "ccc";
         for (int i = 0; i < s.length(); i++) {
             String str1 = "";
             String str2 = "";
@@ -10,7 +10,11 @@ public class pra1 {
             for (int j = i + 1; j < s.length(); j++) {
                 if (s.charAt(i) == s.charAt(j)) {
                     str1 = str1 + s.charAt(j);
-                    break;
+                    if (s.charAt(i) == s.charAt(j++)) {
+                        str1 = str1 + s.charAt(j++);
+                    } else {
+                        break;
+                    }
                 } else {
                     str1 = str1 + s.charAt(j);
                 }
