@@ -3,6 +3,18 @@ package Question;
 public class pra1 {
     public static void main(String arr[]) {
         String s = "ccc";
+        int count = 1;
+        for (int i = 0; i < 1; i++) {
+            for (int j = i + 1; j < s.length(); j++) {
+                if (s.charAt(i) == s.charAt(j)) {
+                    count = count + 1;
+                }
+            }
+            if (count == s.length()) {
+                System.out.println(s);
+                break;
+            }
+        }
         for (int i = 0; i < s.length(); i++) {
             String str1 = "";
             String str2 = "";
@@ -10,11 +22,8 @@ public class pra1 {
             for (int j = i + 1; j < s.length(); j++) {
                 if (s.charAt(i) == s.charAt(j)) {
                     str1 = str1 + s.charAt(j);
-                    if (s.charAt(i) == s.charAt(j++)) {
-                        str1 = str1 + s.charAt(j++);
-                    } else {
-                        break;
-                    }
+                    break;
+                    // }
                 } else {
                     str1 = str1 + s.charAt(j);
                 }
