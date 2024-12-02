@@ -8,5 +8,5 @@ public class pra2 {
             System.out.print(str.charAt(j));
         }
     }
-    System.out.println();sw
+    // System.out.println();sw
 }
