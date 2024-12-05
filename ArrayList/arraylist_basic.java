@@ -7,7 +7,6 @@ public class arraylist_basic {
         System.out.println("Akshatt");
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<String> str = new ArrayList<>();
-
         // Add Element
         str.add("Akshat is very Good boy");
         list.add(1);
@@ -24,19 +23,10 @@ public class arraylist_basic {
         System.out.println(list);
         System.out.println(str);
 
-        // // get Element Value
+        // get Element Value
         // System.out.println(list.get(2));
         list.get(5);
         list.get(5);
-        list.add(289);
-        list.add(500);
-        list.add(500);
-
-        list.add(500);
-        list.add(899);
-        list.add(9000);
-        list.add(56);
-        list.add(90);
 
         // // Remove Element Value
         // list.remove(2);
