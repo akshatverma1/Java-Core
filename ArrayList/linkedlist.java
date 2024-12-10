@@ -20,8 +20,5 @@ public class linkedlist {
         LinkedList l1 = new LinkedList();
         System.out.println("akshat");
         System.out.println("akshat");
-        System.out.println("akshat");
-
     }
-
 }
