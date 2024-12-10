@@ -19,6 +19,5 @@ public class linkedlist {
     public static void main(String arr[]) {
         LinkedList l1 = new LinkedList();
         System.out.println("akshat");
-        System.out.println("akshat");
     }
 }
