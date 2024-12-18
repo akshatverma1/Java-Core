@@ -1,21 +1,36 @@
 public class linklist2 {
 
-    node head = null;
+    Node head;
 
-    public class node {
+    public class Node {
         String data;
-        node next;
+        Node next;
 
-        node(String data) {
+        Node(String data) {
             this.data = data;
             this.next = null;
         }
     }
 
-    public static void addone(String data) {
-
+    public void addone(String data) {
+        Node newNode = new Node(data);
         if (head == null) {
+            head = newNode;
+            return;
+        } else {
+            newNode.next = head;
+            head = newNode;
+        }
+    }
 
+    public void addlast(String data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+        }
+        Node currNode = head;
+        for (int i = 0; currNode.next != null; i++) {
+            currNode = currNode.next;
         }
     }
 
