@@ -14,6 +14,9 @@ public class linklist1 {
 
     public static void addFirst(String data) {
         node1 newnode = new node1(data);
+        if (head == null) {
+
+        }
     }
 
     public static void main(String arr[]) {
