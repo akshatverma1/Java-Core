@@ -33,10 +33,10 @@ public class linklist2 {
     // currNode = currNode.next;
     // }
     // }
-
     public static void main(String arr[]) {
         linklist2 list = new linklist2();
         list.addone("Akshat");
         list.addone("Verma");
+        System.out.println("Akshta Verma");
     }
 }
