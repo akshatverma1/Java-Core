@@ -38,6 +38,6 @@ public class linklist2 {
         list.addone("Akshat");
         list.addone("Verma");
         System.out.println("Akshta Verma");
-        System.out.println("Akshta Verma");
+        // System.out.println("Akshta Verma");
     }
 }
