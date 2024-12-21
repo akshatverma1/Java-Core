@@ -54,6 +54,15 @@ public class Linklist_Basic {
         System.out.print("Null");
     }
 
+    // Delete First
+    public void DeleteFirst() {
+        if (Head == null) {
+            System.out.println("No Node is Present For Delete");
+            return;
+        }
+        Head = Head.next;
+    }
+
     public static void main(String arr[]) {
         Linklist_Basic object1 = new Linklist_Basic();
         // object1.addFirst("Akshat");
