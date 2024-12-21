@@ -63,11 +63,33 @@ public class Linklist_Basic {
         Head = Head.next;
     }
 
+    public void DeleteLast() {
+        if (Head == null) {
+            System.out.println("No Node is Present For Delete");
+            return;
+        }
+        if (Head.next == null) {
+            Head = null;
+            return;
+        }
+
+        Node currentNode = Head;
+        Node SecondLast = Head.next;
+        while (SecondLast.next != null) {
+            SecondLast = SecondLast.next;
+            currentNode = currentNode.next;
+        }
+        currentNode.next = null;
+    }
+
     public static void main(String arr[]) {
         Linklist_Basic object1 = new Linklist_Basic();
-        // object1.addFirst("Akshat");
-        // object1.addLast("Verma");
-        // object1.addLast("Lakshya");
+        object1.addFirst("Akshat");
+        object1.addLast("Verma");
+        object1.addLast("Lakshya");
+        // object1.PrintFunction();
+        // object1.DeleteFirst();
+        object1.DeleteLast();
         object1.PrintFunction();
     }
 }
