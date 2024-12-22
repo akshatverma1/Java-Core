@@ -11,6 +11,6 @@ public class Linklist_collectionframework {
         System.out.println(list.size());
         System.out.println(list.get(1));
         list.removeFirst();
-        System.out.println(list);
+        // System.out.println(list);
     }
 }
