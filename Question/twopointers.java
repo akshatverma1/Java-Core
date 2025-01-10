@@ -10,14 +10,13 @@ class twopointers{
         int left = 0;
         int right = array.length-1;
         int target = 8;
-        while(left>right){
+        while(left<right){
             int summ = array[left]+array[right];
             if(summ==target){
-                System.out.println("Akshat");
                 return target;
             }
             if(summ>target){
-                right++;
+                right--;
             }else {
                 left++;
             }
