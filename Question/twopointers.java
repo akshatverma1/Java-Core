@@ -19,7 +19,7 @@ class twopointers {
                 left++;
             }
         }
-        System.out.println("Akshat");
+        // System.out.println("Akshat");
         return 0;
     }
 }
