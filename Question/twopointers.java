@@ -19,7 +19,6 @@ class twopointers {
                 left++;
             }
         }
-        // System.out.println("Akshat");
         return 0;
     }
 }
