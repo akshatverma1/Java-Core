@@ -12,7 +12,7 @@ public class L15 {
                     if (arrayy[i] + arrayy[j] + arrayy[k] == 0) {
                         System.out.println(arrayy[i] + " " + arrayy[j] + " " + arrayy[k]);
 
-                        arrr.add("[" + arrayy[i] + "," + arrayy[j] + "," + arrayy[k] + "]");
+                        // arrr.add("[" + arrayy[i] + "," + arrayy[j] + "," + arrayy[k] + "]");
                     }
                 }
             }
