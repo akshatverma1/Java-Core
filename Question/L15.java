@@ -18,7 +18,7 @@ public class L15 {
             }
         }
         System.out.println(arrr);
-        System.out.println(Core());
+        // System.out.println(Core());
     }
 
     public static int Core() {
