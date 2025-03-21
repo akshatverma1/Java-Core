@@ -39,7 +39,7 @@ public class L15 {
                             return 0;
                         }
 
-                        arrr.add(Arrays.asList(nums[i], nums[j], nums[k]));
+                        // arrr.add(Arrays.asList(nums[i], nums[j], nums[k]));
                         y = y + 1;
                         // System.out.println("akshat");
                     }
