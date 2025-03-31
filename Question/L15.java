@@ -34,10 +34,10 @@ public class L15 {
                     }
                     if (nums[i] + nums[j] + nums[k] == 0) {
                         int q = 0;
-                        // if (arrr.get(q) == arrr.get(q + 1)) {
-                        // System.err.println("Same");
-                        // return 0;
-                        // }
+                        if (arrr.get(q) == arrr.get(q + 1)) {
+                            System.err.println("Same");
+                            return 0;
+                        }
 
                         // arrr.add(Arrays.asList(nums[i], nums[j], nums[k]));
                         y = y + 1;
