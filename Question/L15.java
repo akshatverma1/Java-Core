@@ -10,9 +10,9 @@ public class L15 {
             for (int j = i + 1; j < arrayy.length; j++) {
                 for (int k = j + 1; k < arrayy.length; k++) {
                     if (arrayy[i] + arrayy[j] + arrayy[k] == 0) {
-                        System.out.println(arrayy[i] + " " + arrayy[j] + " " + arrayy[k]);
+                        // System.out.println(arrayy[i] + " " + arrayy[j] + " " + arrayy[k]);
 
-                        arrr.add("[" + arrayy[i] + "," + arrayy[j] + "," + arrayy[k] + "]");
+                        // arrr.add("[" + arrayy[i] + "," + arrayy[j] + "," + arrayy[k] + "]");
                     }
                 }
             }
