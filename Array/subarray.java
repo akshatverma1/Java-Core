@@ -32,6 +32,7 @@ public class subarray {
                 maxSub = currentSum;
             if (currentSum < 0)
                 currentSum = 0;
+            System.out.println("Akshat");
         }
         return maxSub;
     }
