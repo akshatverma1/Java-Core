@@ -31,7 +31,7 @@ public class subarray {
             if (currentSum >= maxSub)
                 maxSub = currentSum;
             if (currentSum < 0)
-                // currentSum = 0;
+                currentSum = 0;
         }
         return maxSub;
     }
