@@ -5,7 +5,7 @@ import java.util.*;
 public class reverse_words_in_a_string {
     public static void main(String arr[]) {
         String str = new String();
-        str = "akshat verma is a good boy";
+        str = "  hello world ";
         reverse(str);
     }
 
@@ -23,7 +23,8 @@ public class reverse_words_in_a_string {
                 i++;
             }
             strWord.reverse();
-            finalstr.append(" " + strWord);
+            if (strWord.length() > 0)
+                finalstr.append(" " + strWord);
         }
         System.out.println(finalstr.substring(1));
     }
