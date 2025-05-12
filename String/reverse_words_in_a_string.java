@@ -8,7 +8,7 @@ public class reverse_words_in_a_string {
     }
 
     public static void reverse(String str) {
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = str.length() - 1; i >= 0; i--) {
             System.out.print(str.charAt(i));
         }
     }
