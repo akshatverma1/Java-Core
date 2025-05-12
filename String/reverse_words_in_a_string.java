@@ -10,18 +10,10 @@ public class reverse_words_in_a_string {
     }
 
     public static void reverse(String str) {
-        StringBuilder str2 = new StringBuilder(str);
-        StringBuilder str4 = new StringBuilder();
-        str2.reverse();
-        str2.toString();
-        StringBuilder str3 = new StringBuilder("");
-        for (int i = 0; i < str2.length(); i++) {
-            while ((i < str2.length()) && ((str2.charAt(i)) != ' ')) {
-                str3.append(str2.charAt(i));
-                i++;
-            }
-            str3.reverse();
-            System.out.println(str3);
-        }
+        // System.out.println(str);
+        StringBuilder strReverse = new StringBuilder(str);
+        strReverse.toString();
+        strReverse.reverse();
+        System.out.println(strReverse);
     }
 }
