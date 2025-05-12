@@ -10,25 +10,18 @@ public class Largest_odd_number_in_a_string {
         int number = Integer.parseInt(s);
         StringBuilder strValue = new StringBuilder("");
         int max = 0;
-        if ((number % 2) != 0) {
-            String str = Integer.toString(number);
-            return str;
-        } else {
-            for (int i = 0; i < s.length(); i++) {
-                for (int j = i; j < s.length(); j++) {
-                    for (int k = i; k < j; k++) {
-                        strValue.append(s.charAt(k));
-                    }
-                    String str2 = strValue.toString();
-                    int value = Integer.parseInt(str2);
-                    if ((value % 2) != 0) {
-                        if (value > max) {
-                            max = value;
-                        }
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i + 1; j <= s.length(); j++) {
+                String str1 = s.substring(i, j);
+                System.out.println(str1);
+                int value = Integer.parseInt(str1);
+                if ((value % 2) != 0) {
+                    if (value >= max) {
+                        max = value;
                     }
                 }
-
             }
+
         }
         String Finalstr = Integer.toString(max);
         return Finalstr;
