@@ -4,22 +4,23 @@ import java.util.*;
 
 public class longest_Common_Prefix {
     public static void main(String arr[]) {
-        String strs[] = { "" };
+        String strs[] = { "", "" };
         System.out.println(longest(strs));
     }
 
     public static String longest(String strs[]) {
         System.out.println(strs.length);
         Arrays.sort(strs);
-        char First[] = strs[0].toCharArray();
-        char End[] = strs[strs.length - 1].toCharArray();
-        StringBuilder strFinal = new StringBuilder("");
-        for (int i = 0; i < strs.length; i++) {
-            if (First[i] != End[i]) {
+        String str1 = strs[0];
+        String str2 = strs[strs.length - 1];
+        int index = 0;
+        while (index < str1.length()) {
+            if (str1.charAt(index) == str2.charAt(index)) {
+                index++;
+            } else {
                 break;
             }
-            strFinal.append(First[i]);
         }
-        return strFinal.toString();
+        return index == 0 ? "" : str1.substring(0, index);
     }
 }
