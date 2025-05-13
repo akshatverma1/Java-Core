@@ -21,10 +21,14 @@ public class Isomorphic_Strings {
             char temp = sv;
             sv = tv;
             tv = temp;
-            str1.append(sv).toString();
-            str2.append(tv).toString();
+            str1.append(sv);
+            str2.append(tv);
         }
-        if (str1 == str2) {
+        str1.toString();
+        str2.toString();
+        System.out.println(str1);
+        System.out.println(str2);
+        if (s.equals(str1)) {
             return true;
         }
         return false;
