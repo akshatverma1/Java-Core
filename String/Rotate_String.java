@@ -2,12 +2,15 @@ package String;
 
 public class Rotate_String {
     public static void main(String arr[]) {
-        String s = "akshat";
-        String t = "shatak";
+        String s = "aa";
+        String t = "a";
         System.out.println(reverse(s, t));
     }
 
     public static boolean reverse(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
         String str = s + s;
         System.out.println(str);
         for (int i = 0; i < str.length(); i++) {
