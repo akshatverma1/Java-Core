@@ -1,5 +1,7 @@
 package String;
 
+import java.util.*;
+
 public class Isomorphic_Strings {
     public static void main(String arr[]) {
         String s = "egg";
@@ -8,29 +10,27 @@ public class Isomorphic_Strings {
     }
 
     public static boolean Isomorphic(String s, String t) {
-        if (s.length() != t.length()) {
-            System.out.println("length false");
-            return false;
-        }
-        StringBuilder str1 = new StringBuilder("");
-        StringBuilder str2 = new StringBuilder("");
+        StringBuilder sb = new StringBuilder(s);
+        StringBuilder tb = new StringBuilder(t);
+        int sa[] = new int[128];
+        int va[] = new int[128];
+        Arrays.fill(sa, -1);
+        Arrays.fill(va, -1);
 
-        for (int i = 0; i < s.length(); i++) {
-            char sv = s.charAt(i);
-            char tv = t.charAt(i);
-            char temp = sv;
-            sv = tv;
-            tv = temp;
-            str1.append(sv);
-            str2.append(tv);
+        for (int i = 0; i < sb.length(); i++) {
+            char s1 = sb.charAt(i);
+            char t1 = tb.charAt(i);
+
+            if (sa[s1] == -1) {
+                sa[s1] = t1;
+            }
+            if (va[t1] == -1) {
+                va[t1] = s1;
+            }
+            if ((sa[s1] != t1) || (va[t1] != s1)) {
+                return false;
+            }
         }
-        str1.toString();
-        str2.toString();
-        System.out.println(str1);
-        System.out.println(str2);
-        if (s.equals(str1)) {
-            return true;
-        }
-        return false;
+        return true;
     }
 }
