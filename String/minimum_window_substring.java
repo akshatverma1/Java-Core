@@ -10,18 +10,30 @@ public class minimum_window_substring {
         Arrays.fill(frequency, -1);
         int counter = 0;
         int count = 0;
+        for (int i = 0; i < t.length(); i++) {
+            char n = t.charAt(i);
+            if (frequency[n] == -1) {
+                frequency[n] = 0;
+            }
+        }
         for (int i = 0; i < s.length(); i++) {
             for (int j = i; j < s.length(); j++) {
-                char n = s.charAt(j);
-                if (frequency[n] == -1) {
-                    frequency[n] = 0;
-                }
                 if (frequency[s.charAt(j)] == 0) {
                     counter++;
                 }
-                counter = 0;
+                if (counter == t.length()) {
+                    // System.out.println(s.substring(i, j + 1));
+                    counter = 0;
+                    if (count == 0) {
+                        str2 = s.substring(i, j + 1);
+                        count++;
+                    }
+                    if ((str2.length()) >= (s.substring(i, j + 1).length())) {
+                        str2 = s.substring(i, j + 1);
+                    }
+                }
             }
-
+            counter = 0;
         }
         System.out.println(str2);
     }
