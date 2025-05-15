@@ -18,9 +18,14 @@ public class Valid_Anagram {
 
         for (int i = 0; i < s.length(); i++) {
             for (int j = 0; j < s.length(); j++) {
-                if (s.charAt(j) == 0) {
-
+                if (frequency[s.charAt(j)] >= 0) {
+                    frequency[s.charAt(j)]--;
                 }
+            }
+        }
+        for (int i = 0; i < s.length(); i++) {
+            if (frequency[s.charAt(i)] >= 0) {
+                return true;
             }
         }
         // boolean sea[] = new boolean[s.length()];
@@ -43,6 +48,6 @@ public class Valid_Anagram {
         // return false;
         // }
         // }
-        return true;
+        return false;
     }
 }
