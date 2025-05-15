@@ -7,16 +7,16 @@ public class Remove_Outermost_Parentheses {
         str.toString();
         int counter = 0;
         for (int i = 0; i < s.length(); i++) {
-            if ((s.charAt(i) == '(')) {
+            if (s.charAt(i) == '(') {
                 if (counter > 0) {
-                    str.append(str.charAt(i));
+                    str.append(s.charAt(i));
                 }
                 counter++;
             } else {
-                if (counter > 0) {
-                    str.append(str.charAt(i));
-                }
                 counter--;
+                if (counter > 0) {
+                    str.append(s.charAt(i));
+                }
             }
         }
         System.out.println(str);
