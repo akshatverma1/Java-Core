@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class minimum_window_substring {
     public static void main(String arr[]) {
-        String s = "ADOBECODEBANC", t = "ABC";
+        String s = "a", t = "aa";
         String str2 = "";
         int frequency[] = new int[128];
         Arrays.fill(frequency, -1);
