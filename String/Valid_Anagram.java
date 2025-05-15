@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Valid_Anagram {
     public static void main(String arr[]) {
-        String s = "rat", t = "car";
+        String s = "anagram", t = "nagaram";
         System.out.println(Anagram(s, t));
     }
 
@@ -18,36 +18,17 @@ public class Valid_Anagram {
 
         for (int i = 0; i < s.length(); i++) {
             for (int j = 0; j < s.length(); j++) {
-                if (frequency[s.charAt(j)] >= 0) {
-                    frequency[s.charAt(j)]--;
+                if (s.charAt(i) == t.charAt(j)) {
+                    frequency[s.charAt(j)] -= 1;
                 }
             }
         }
+
         for (int i = 0; i < s.length(); i++) {
             if (frequency[s.charAt(i)] >= 0) {
-                return true;
+                return false;
             }
         }
-        // boolean sea[] = new boolean[s.length()];
-        // Arrays.fill(sea, false);
-        // if (s.length() != t.length()) {
-        // return false;
-        // }
-        // for (int i = 0; i < s.length(); i++) {
-        // for (int j = 0; j < s.length(); j++) {
-        // if (s.charAt(i) == t.charAt(j)) {
-        // sea[i] = true;
-        // break;
-        // } else {
-        // sea[i] = false;
-        // }
-        // }
-        // }
-        // for (int i = 0; i < sea.length; i++) {
-        // if (sea[i] == false) {
-        // return false;
-        // }
-        // }
-        return false;
+        return true;
     }
 }
