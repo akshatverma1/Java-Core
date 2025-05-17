@@ -2,7 +2,7 @@ package String;
 
 public class Maximum_Nesting_Depth_Parentheses {
     public static void main(String arr[]) {
-        String s = "(1+(2*3)+((8)/4))+1";
+        String s = "()(())((()()))";
         System.out.println(Depth(s));
     }
 
