@@ -7,9 +7,18 @@ public class Maximum_Nesting_Depth_Parentheses {
     }
 
     public static int Depth(String s) {
+        int counter = 0;
+        int countMax = 0;
         for (int i = 0; i < s.length(); i++) {
-            System.out.println(s.charAt(i));
+            if (s.charAt(i) == '(') {
+                counter++;
+            } else if (s.charAt(i) == ')') {
+                if (counter > countMax) {
+                    countMax = counter;
+                }
+                counter--;
+            }
         }
-        return 6;
+        return countMax;
     }
 }
