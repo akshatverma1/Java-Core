@@ -46,7 +46,6 @@ public class mergeSort {
         }
         // copy
         int g = si, h = 0;
-
         while (h < temp.length) {
             array[g++] = temp[h++];
         }

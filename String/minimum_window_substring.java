@@ -10,10 +10,11 @@ public class minimum_window_substring {
         Arrays.fill(frequency, -1);
         int counter = 0;
         int count = 0;
+        int increment = 0;
         for (int i = 0; i < t.length(); i++) {
             char n = t.charAt(i);
             if (frequency[n] == -1) {
-                frequency[n] = 0;
+                frequency[n] = increment;
             }
         }
         for (int i = 0; i < s.length(); i++) {
