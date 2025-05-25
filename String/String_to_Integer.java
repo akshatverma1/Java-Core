@@ -6,7 +6,6 @@ public class String_to_Integer {
     }
 
     public static int sToi(String s) {
-        System.out.println(s);
         return 3;
     }
 }
