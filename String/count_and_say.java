@@ -16,9 +16,9 @@ public class count_and_say {
                 int count = 1;
 
                 // Count how many times the current digit repeats
-                // for (int k = j + 1; k < s.length() && s.charAt(k) == s.charAt(j); k++) {
-                // count++;
-                // }
+                for (int k = j + 1; k < s.length() && s.charAt(k) == s.charAt(j); k++) {
+                    count++;
+                }
 
                 str2.append(count);
                 str2.append(s.charAt(j));
