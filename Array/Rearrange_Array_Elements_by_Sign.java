@@ -32,9 +32,6 @@ public class Rearrange_Array_Elements_by_Sign {
                 bool = true;
             }
         }
-        for (int u : nums2) {
-            System.out.print(u + " ");
-        }
         // int startIndex = 0;
         // int endIndex = startIndex+1;
         // while (startIndex<=nums.length-2) {
