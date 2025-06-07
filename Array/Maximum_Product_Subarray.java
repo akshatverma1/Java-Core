@@ -8,15 +8,15 @@ public class Maximum_Product_Subarray {
         int product = 1;
         int u = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
-            // for (int j = i; j < nums.length; j++) {
-            // for (int k = i; k <= j; k++) {
-            // product *= nums[k];
-            // }
-            // if (product > u) {
-            // u = product;
-            // }
-            // product = 1;
-            // }
+            for (int j = i; j < nums.length; j++) {
+                for (int k = i; k <= j; k++) {
+                    product *= nums[k];
+                }
+                if (product > u) {
+                    u = product;
+                }
+                product = 1;
+            }
         }
         return u;
     }
