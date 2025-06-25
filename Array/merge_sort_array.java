@@ -8,8 +8,6 @@ public class merge_sort_array {
     }
 
     public static int[] mergesort(int a[], int b[], int m, int n) {
-        // int alength = a.length;
-        // int blength = b.length;
         return a;
     }
 }
