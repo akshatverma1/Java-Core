@@ -13,24 +13,26 @@ public class three_sum {
         for (int i = 0; i < nums.length; i++) {
             int j = i + 1;
             int k = nums.length - 1;
-            for (int o = i + 1; o < nums.length; o++) {
-                int y = nums[i] + nums[j] + nums[k];
-                if (y == 0) {
-                    count++;
+            while (j < k) {
+                if (i > 0 && nums[i] == nums[i - 1])
+                    continue;
+                int sum = nums[i] + nums[j] + nums[k];
+                if (sum < 0) {
+                    j++;
+                } else if (sum > 0) {
+                    k--;
+                } else {
                     List<Integer> innerlist = new ArrayList<>();
                     innerlist.add(nums[i]);
                     innerlist.add(nums[j]);
                     innerlist.add(nums[k]);
                     outerlist.add(innerlist);
-                    break;
-                }
-                if (y < 0) {
-                    j++;
-                } else {
                     k--;
-                }
-                if (j >= k) {
-                    break;
+                    j++;
+                    while (j < k && nums[j] == nums[j - 1]) {
+                        j++;
+                    }
+                    ;
                 }
             }
         }
