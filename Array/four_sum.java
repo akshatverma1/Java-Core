@@ -29,10 +29,10 @@ public class four_sum {
                         outerlist.add(innerlist);
                         p++;
                         q--;
-                        // while (p < q && nums[p] == nums[p - 1])
-                        // p++;
-                        // while (p < q && nums[q] == nums[q + 1])
-                        // q--;
+                        while (p < q && nums[p] == nums[p - 1])
+                            p++;
+                        while (p < q && nums[q] == nums[q + 1])
+                            q--;
                     }
 
                 }
