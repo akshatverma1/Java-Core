@@ -21,18 +21,16 @@ public class Search_Insert_Position {
             }
         }
 
-        return search_third(nums, nums.length - 1, target);
+        return search_third(nums, 0, target);
     }
 
     public static int search_third(int nums[], int n, int target) {
-        if (n == 0) {
+        if (n == nums.length - 1) {
             return nums.length;
-        }
-        if (target > nums[n]) {
-            return n + 1;
+        } else if (target < nums[n]) {
+            return n;
         } else {
-            search_third(nums, n - 1, target);
+            return search_third(nums, n + 1, target);
         }
-        return -2;
     }
 }
