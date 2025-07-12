@@ -1,7 +1,7 @@
 public class Search_Insert_Position {
     public static void main(String arr[]) {
-        int nums[] = { 1, 3, 5, 6 };
-        int target = 2;
+        int nums[] = { 1 };
+        int target = 0;
         System.out.println(searchInsert(nums, target));
     }
 
@@ -25,7 +25,7 @@ public class Search_Insert_Position {
     }
 
     public static int search_third(int nums[], int n, int target) {
-        if (n == nums.length - 1) {
+        if (n == nums.length) {
             return nums.length;
         } else if (target < nums[n]) {
             return n;
