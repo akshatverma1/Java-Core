@@ -24,13 +24,13 @@ public class Search_Insert_Position {
         return search_third(nums, 0, target);
     }
 
-    // public static int search_third(int nums[], int n, int target) {
-    // if (n == nums.length) {
-    // return nums.length;
-    // } else if (target < nums[n]) {
-    // return n;
-    // } else {
-    // return search_third(nums, n + 1, target);
-    // }
-    // }
+    public static int search_third(int nums[], int n, int target) {
+        if (n == nums.length) {
+            return nums.length;
+        } else if (target < nums[n]) {
+            return n;
+        } else {
+            return search_third(nums, n + 1, target);
+        }
+    }
 }
