@@ -9,18 +9,18 @@ public class Find_First_and_Last_Position_of_Element_in_Sorted_Array {
     }
 
     public static int searchRangeSecond(int[] nums, int target, int si, int ei, int ans0) {
-        while (si <= ei) {
-            int mid = si + (ei - si) / 2;
-            if (nums[mid] == target) {
-                ans0 = mid;
-                ei = mid - 1;
-            } else if (target > nums[mid]) {
-                return searchRangeSecond(nums, target, mid + 1, ei, ans0);
-            } else {
-                return searchRangeSecond(nums, target, si, mid - 1, ans0);
-            }
-        }
-        return ans0;
+        // while (si <= ei) {
+        // int mid = si + (ei - si) / 2;
+        // if (nums[mid] == target) {
+        // ans0 = mid;
+        // ei = mid - 1;
+        // } else if (target > nums[mid]) {
+        // return searchRangeSecond(nums, target, mid + 1, ei, ans0);
+        // } else {
+        // return searchRangeSecond(nums, target, si, mid - 1, ans0);
+        // }
+        // }
+        // return ans0;
     }
 
     public static int searchRangethird(int[] nums, int target, int si, int ei, int ans1) {
