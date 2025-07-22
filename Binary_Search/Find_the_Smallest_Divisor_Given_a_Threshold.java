@@ -9,33 +9,30 @@ public class Find_the_Smallest_Divisor_Given_a_Threshold {
     }
 
     public static int smallestDivisor(int[] nums, int threshold) {
-        return smallestDivisorSecond(nums, threshold, nums[0], nums[nums.length - 1]);
-    }
+        int left = 1;
+        int right = 0;
 
-    public static int smallestDivisorSecond(int nums[], int threshold, int sv, int ev) {
-        int mid = sv + (ev - sv) / 2;
-        int ans = mid;
-        int result = Integer.MAX_VALUE;
-        while (sv <= ev) {
-            int sum = 0;
-            for (int i = 0; i < nums.length; i++) {
-                int d = nums[i] / mid;
-                if (d < 1) {
-                    d = 1;
-                }
-                sum = sum + d;
-            }
-            if (sum <= threshold) {
-                sv = mid + 1;
-                if (sum <= result) {
-                    result = sum;
-                    ans = mid;
-                }
-            } else {
-                ev = mid - 1;
-            }
-            mid = sv + (ev - sv) / 2;
+        for (int num : nums) {
+            right = Math.max(right, num); // find the maximum value
         }
-        return ans;
+
+        int answer = right;
+        int mid = left + (right - left) / 2;
+        while (left <= right) {
+            int sum = 0;
+            for (int num : nums) {
+                sum += (num + mid - 1) / mid; // equivalent to Math.ceil(num / mid)
+            }
+
+            if (sum <= threshold) {
+                answer = mid;
+                right = mid - 1; // try to find smaller divisor
+            } else {
+                left = mid + 1; // need a bigger divisor
+            }
+            mid = left + (right - left) / 2;
+        }
+
+        return answer;
     }
 }
