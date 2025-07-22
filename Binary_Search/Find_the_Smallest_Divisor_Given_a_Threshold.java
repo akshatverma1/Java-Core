@@ -16,15 +16,15 @@ public class Find_the_Smallest_Divisor_Given_a_Threshold {
         int mid = sv + (ev - sv) / 2;
         int ans = mid;
         int result = Integer.MAX_VALUE;
-        while (sv <= ev) {
-            int sum = 0;
-            for (int i = 0; i < nums.length; i++) {
-                int d = nums[i] / mid;
-                if (d < 1) {
-                    d = 1;
-                }
-                sum = sum + d;
-            }
+        // while (sv <= ev) {
+        //     int sum = 0;
+        //     for (int i = 0; i < nums.length; i++) {
+        //         int d = nums[i] / mid;
+        //         if (d < 1) {
+        //             d = 1;
+        //         }
+        //         sum = sum + d;
+        //     }
             if (sum <= threshold) {
                 sv = mid + 1;
                 if (sum <= result) {
@@ -35,7 +35,5 @@ public class Find_the_Smallest_Divisor_Given_a_Threshold {
                 ev = mid - 1;
             }
             mid = sv + (ev - sv) / 2;
-        }
-        return ans;
-    }
-}
+        }return ans;
+}}
