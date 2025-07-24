@@ -3,9 +3,9 @@ public class Find_a_Peak_Element_II {
 
     }
 
-    public int[] findPeakGrid(int[][] mat) {
-        int result[] = new int[2];
+    // public int[] findPeakGrid(int[][] mat) {
+    // int result[] = new int[2];
 
-        return result;
-    }
+    // return result;
+    // }
 }
