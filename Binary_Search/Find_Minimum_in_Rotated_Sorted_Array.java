@@ -5,11 +5,11 @@ public class Find_Minimum_in_Rotated_Sorted_Array {
     }
 
     public static int findMin(int[] nums) {
-        // int result = 0;
-        // int si = 0;
-        // int ei = nums.length - 1;
-        // int mid = si + (ei - si) / 2;
-        // while (si < ei) {
+        int result = 0;
+        int si = 0;
+        int ei = nums.length - 1;
+        int mid = si + (ei - si) / 2;
+        while (si < ei) {
 
             if (nums[si] > nums[ei]) {
                 si = mid + 1;
@@ -17,5 +17,7 @@ public class Find_Minimum_in_Rotated_Sorted_Array {
                 ei = mid - 1;
             }
             mid = si + (ei - si) / 2;
-        }return nums[mid];
-}}
+        }
+        return nums[mid];
+    }
+}
