@@ -75,9 +75,6 @@ public class Linklist {
         return searchRecursive(Head, Key, 0);
     }
 
-    int index = 1;
-    Node currentNode = Head;
-
     public int searchRecursive(Node currentNode, String key, int index) {
         if (currentNode.next == null) {
             System.out.println("Linklist is not Found");
@@ -91,6 +88,22 @@ public class Linklist {
         return searchRecursive(currentNode.next, key, index + 1);
     }
 
+    // Function to reverse the linked list
+    public void reversee() {
+        Node prev = null;
+        Node current = Head;
+        Node next = null;
+
+        while (current != null) {
+            next = current.next; // store next
+            current.next = prev; // reverse the link
+            prev = current; // move prev forward
+            current = next; // move current forward
+        }
+
+        Head = prev; // update head to new first node
+    }
+
     public static void main(String arr[]) {
         Linklist ll = new Linklist();
         ll.addFirst("1");
@@ -98,8 +111,11 @@ public class Linklist {
         ll.addLast("3");
         ll.addLast("4");
         ll.addLast("5");
-        // ll.PrintFunction();
-        System.out.println(ll.searchIterative("4"));
-        System.out.println(ll.searchRecursiveone("4"));
+        ll.PrintFunction();
+        // System.out.println(ll.searchIterative("4"));
+        // System.out.println(ll.searchRecursiveone("4"));
+        System.out.println("Reversed List:");
+        ll.reversee();
+        ll.PrintFunction();
     }
 }
