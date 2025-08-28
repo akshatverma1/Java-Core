@@ -71,6 +71,26 @@ public class Linklist {
         return -1;
     }
 
+    public int searchRecursiveone(String Key) {
+        return searchRecursive(Head, Key, 0);
+    }
+
+    int index = 1;
+    Node currentNode = Head;
+
+    public int searchRecursive(Node currentNode, String key, int index) {
+        if (currentNode.next == null) {
+            System.out.println("Linklist is not Found");
+            return -1;
+        }
+
+        if (currentNode.data == key) {
+            System.out.println("Key is Found");
+            return index;
+        }
+        return searchRecursive(currentNode.next, key, index + 1);
+    }
+
     public static void main(String arr[]) {
         Linklist ll = new Linklist();
         ll.addFirst("1");
@@ -80,5 +100,6 @@ public class Linklist {
         ll.addLast("5");
         // ll.PrintFunction();
         System.out.println(ll.searchIterative("4"));
+        System.out.println(ll.searchRecursiveone("4"));
     }
 }
