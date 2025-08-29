@@ -104,18 +104,94 @@ public class Linklist {
         Head = prev; // update head to new first node
     }
 
+    public void findanddelete(int n) {
+        if (Head == null) {
+            System.out.println("Linklist is not Found");
+            return;
+        }
+
+        int size = 0;
+        Node currentNode = Head;
+        while (currentNode != null) {
+            size++;
+            currentNode = currentNode.next;
+        }
+        System.out.println("Sixe :" + size);
+
+        if (size == n) {
+            Head = Head.next;
+            return;
+        }
+
+        int i = 1;
+        int index = (size - n);
+        Node pre = Head;
+        while (i < index) {
+            pre = pre.next;
+            i++;
+        }
+        pre.next = pre.next.next;
+        return;
+    }
+
+    // helper functiom
+    private Node helper(Node head) {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    public boolean plaindrome() {
+        if (Head == null || Head.next == null) {
+            System.out.println("LINKLIST IS NOT FOUND");
+            return false;
+        }
+        Node mid = helper(Head);
+        Node prev = null;
+        Node curr = mid;
+        Node next;
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        Node right = prev;
+        Node left = Head;
+
+        while (right != null) {
+            if (left.data != right.data) {
+                System.out.println("Its not Palindrome");
+                return false;
+            }
+            left = left.next;
+            right = right.next;
+
+        }
+        System.out.println("Its a Palindrome");
+        return true;
+    }
+
     public static void main(String arr[]) {
         Linklist ll = new Linklist();
         ll.addFirst("1");
         ll.addLast("2");
         ll.addLast("3");
-        ll.addLast("4");
-        ll.addLast("5");
+        ll.addLast("2");
+        ll.addLast("1");
         ll.PrintFunction();
         // System.out.println(ll.searchIterative("4"));
         // System.out.println(ll.searchRecursiveone("4"));
-        System.out.println("Reversed List:");
-        ll.reversee();
-        ll.PrintFunction();
+        // System.out.println("Reversed List:");
+        // ll.reversee();
+        // ll.findanddelete(1);
+        // System.out.println("After Deleted the Node");
+        // ll.PrintFunction();
+        System.out.println(ll.plaindrome());
     }
 }
