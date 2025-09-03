@@ -5,10 +5,10 @@ import java.util.*;
 public class Arraya {
     public static void main(String arr[]) {
         ArrayList<Integer> List = new ArrayList<>();
-        List.add(1);
-        List.add(2);
-        List.add(3);
-        List.add(4);
+        // List.add(1);
+        // List.add(2);
+        // List.add(3);
+        // List.add(4);
         ArrayList<Integer> List1 = new ArrayList<>();
         List1.add(5);
         List1.add(6);
