@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class stack01 {
+public class stack_using_arraylist {
 
     static class stackOperation {
         ArrayList<Integer> list = new ArrayList<>();
