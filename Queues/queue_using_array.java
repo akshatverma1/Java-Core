@@ -1,12 +1,12 @@
 package Queues;
 
 public class queue_using_array {
-    static class Queues{
+    static class Queue{
         static int arr[];
         static int size ;
         static int rear;
         
-        Queues(int n){
+        Queue(int n){
             arr = new int[n];
             size = n;
             rear =-1;
@@ -39,7 +39,8 @@ public class queue_using_array {
         }
     }
     public static void main(String arr[]){
-        Queues q = new Queues(6);
+        int n= 9;
+        Queue q = new Queue(n);
         // q.add(1);
         // System.out.println(q.peek());
     }
