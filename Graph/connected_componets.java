@@ -11,9 +11,8 @@ class connected_componets{
             this.weight = w;
         }
     }
-    public static void bfs(ArrayList<Edges> graph[],int s){
+    public static void bfs_util(ArrayList<Edges> graph[],boolean visited[]){
         Queue <Integer> q = new LinkedList<>();
-        boolean visited [] = new boolean[graph.length];
         q.add(0);
         while(!q.isEmpty()){
             int current = q.remove();
@@ -25,6 +24,14 @@ class connected_componets{
                     Edges e = graph[current].get(i);
                     q.add(e.Destition);
                 }
+            }
+        }
+    }
+    public static void bfs(ArrayList<Edges> graph[]){
+        boolean visited[] = new boolean[graph.length];
+        for(int i = 0;i<graph.length;i++){
+            if(visited[i]==false){
+                bfs_util(graph,visited);
             }
         }
     }
@@ -75,6 +82,6 @@ class connected_componets{
         int v=7;
         ArrayList <Edges> Graph [] = new ArrayList[v];
         creating_graph(Graph);
-        bfs(Graph, v);
+        bfs(Graph);
     }
 }
