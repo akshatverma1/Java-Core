@@ -35,6 +35,17 @@ class connected_componets{
             }
         }
     }
+
+    public static void dfs_util(ArrayList<Edges> graph[],int current,boolean visited[]){
+        System.out.println(current);
+        visited[current] = true;
+        for(int i=0;i<graph[current].size();i++){
+            Edges e = graph[current].get(i);
+            if(visited[e.Destition] == false){
+                dfs_util(graph, e.Destition, visited);
+            }
+        }
+    }
     public static void creating_graph(ArrayList<Edges> graph[]){
         for(int i = 0;i<graph.length;i++){
             graph[i]= new ArrayList<>();
@@ -82,6 +93,7 @@ class connected_componets{
         int v=7;
         ArrayList <Edges> Graph [] = new ArrayList[v];
         creating_graph(Graph);
-        bfs(Graph);
+        // bfs(Graph);
+        dfs_util(Graph, 0, new boolean[v]);
     }
 }
