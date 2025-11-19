@@ -46,6 +46,14 @@ class connected_componets{
             }
         }
     }
+    public static void dfs(ArrayList<Edges> graph[],int current){
+        boolean visited[] = new boolean[graph.length];
+        for(int i =0 ;i<graph.length;i++){
+            if(visited[i]==false){
+                dfs_util(graph, current, visited);
+            }
+        }
+    }
     public static void creating_graph(ArrayList<Edges> graph[]){
         for(int i = 0;i<graph.length;i++){
             graph[i]= new ArrayList<>();
@@ -94,6 +102,6 @@ class connected_componets{
         ArrayList <Edges> Graph [] = new ArrayList[v];
         creating_graph(Graph);
         // bfs(Graph);
-        dfs_util(Graph, 0, new boolean[v]);
+        dfs(Graph, 0);
     }
 }
