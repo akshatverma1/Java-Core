@@ -46,6 +46,7 @@ class connected_componets{
             }
         }
     }
+    
     public static void dfs(ArrayList<Edges> graph[],int current){
         boolean visited[] = new boolean[graph.length];
         for(int i =0 ;i<graph.length;i++){
